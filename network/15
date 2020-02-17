@@ -1,1 +1,3 @@
 echo "46.19.122.85 intra.42.fr" >> /etc/hosts
+
+#The above command is how you can reroute an address that will echo "46.19.122.85 intra.42.fr" into the hosts file.
