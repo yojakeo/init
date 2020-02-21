@@ -1,1 +1,1 @@
-ps -ef | grep "sshd" | awk '{print $2}'
+ps -ef | grep "sshd" | head -1 | awk '{print $2}'
