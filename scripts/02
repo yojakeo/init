@@ -12,5 +12,6 @@ log=$(sudo pgrep -u $NAME)
 if $log
 then
 	sudo pkill -u $name > /dev/null 2>&1
+	sudo deluser --remove-home -f $name
 	echo "Process killed."
 fi
